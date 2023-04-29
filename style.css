@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*ヘッダー*/
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F
+}
+
+.header_group {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+  height: 70px;
+}
+
+.nav-list {
+  line-height: 70px;
+  list-style: none;
+  font-size: 16px;
+  color: #FAFAFA;
+  padding: 0 30px;
+}
+
+.nav-list-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*メインビジュアル*/
+.main-visual {
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+}
+
+.main-visual-content {
+  font-size: 64px;
+  color: #FAFAFA;
+  padding: 200px 0 10px 0;
+  text-align: center;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #FAFAFA;
+  text-align: center;
+}
+
+/*ポートフォリオ*/
+.portfolio-heading {
+  width: 100%;
+  background-color: #ECEFF1;
+}
+
+.portfolio-area {
+  width: 920px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.heading-content {
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  padding-bottom: 8px;
+}
+
+.under-bar {
+  width: 70px;
+  border-bottom: 3px solid #EC715F;
+  margin: 0 auto;
+}
+
+.heading-text {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.portfolio-image {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.image-box {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 10px 10px 0;
+}
+
+.image-box:nth-child(3n) {
+  margin: 0 0 10px 0;
+}
+
+.image-box:nth-child(1) {
+  background-image: url(img/sketch.jpg)
+}
+
+.image-box:nth-child(2) {
+  background-image: url(img/websuku.png)
+}
+
+.image-box:nth-child(3) {
+  background-image: url(img/write.jpg)
+}
+
+.image-box:nth-child(4) {
+  background-image: url(img/webcamp.png)
+}
+
+.image-box:nth-child(5) {
+  background-image: url(img/talk.jpg)
+}
+
+.image-box:nth-child(6) {
+  background-image: url(img/webcamp-mother.png)
+}
+
+/*フィーチャー*/
+.feature-heading {
+  width: 100%;
+}
+
+.feature-area {
+  width: 980px;
+  padding: 90px 0;
+  margin: 0 auto;
+
+}
+
+.strength {
+  display: flex;
+}
+
+.strength-group {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.strength-group:nth-child(3) {
+  margin-right: 0;
+}
+
+.strength-icon {
+  font-size: 60px;
+  text-align: center;
+}
+
+.strength-heading {
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+/*プロファイル*/
+.profile-heading {
+  width: 100%;
+  background-color: #ECEFF1;
+}
+
+.profile-area {
+  width: 1024px;
+  padding: 90px 0;
+  margin: 0 auto;
+
+}
+
+.my-picture-area {
+  width: 512px;
+}
+
+.introduction-area {
+  display: flex;
+}
+
+.my-picture {
+  width: 250px;
+  height: 250px;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.introduction {
+  width: 512px;
+}
+
+.introduction-heading {
+  font-size: 20px;
+}
+
+.introduction-text {
+  font-size: 16px;
+  color: #000000;
+  padding: 5px 0 20px 0;
+}
+
+/*コンタクト*/
+.contact-heading {
+  width: 100%;
+}
+
+.contact-area {
+  width: 800px;
+  padding: 90px 0;
+  margin: 0 auto;
+}
+
+.contact-box-area {
+  display: flex;
+}
+
+.contact-box {
+  width: 400px;
+  text-align: center;
+}
+
+.contact-box-heading {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.contact-box-text {
+  padding-bottom: 20px;
+}
+
+.sns-icon {
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+/*フッター*/
+.footer-comment{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+  text-align: center;
+}
